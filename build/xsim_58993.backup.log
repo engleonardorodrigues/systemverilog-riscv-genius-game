@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sat May  3 12:18:27 2025
+# Process ID         : 58993
+# Current directory  : /home/leonardo/systemverilog-riscv-genius-game/build
+# Command line       : xsim -mode tcl -source {xsim.dir/top_sim/xsim_script.tcl}
+# Log file           : /home/leonardo/systemverilog-riscv-genius-game/build/xsim.log
+# Journal file       : /home/leonardo/systemverilog-riscv-genius-game/build/xsim.jou
+# Running On         : leonardo-Nitro-AN515-44
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : AMD Ryzen 7 4800H with Radeon Graphics
+# CPU Frequency      : 4286.919 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16100 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 18247 MB
+# Available Virtual  : 12584 MB
+#-----------------------------------------------------------
+source xsim.dir/top_sim/xsim_script.tcl
+# xsim {top_sim} -testplusarg UVM_TESTNAME=adder_basic_test -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Print default (DEC)
+---------------------------------------
+name  p, type: ANY
+From source  1, to target  2, data:  42
+Print HEX
+---------------------------------------
+name  p, type: ANY
+From source 1, to target 2, data: 2a
+Print BIN
+---------------------------------------
+name  p, type: ANY
+From source 0001, to target 0010, data: 00101010
+exit
+INFO: [Common 17-206] Exiting xsim at Sat May  3 12:18:32 2025...

@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/opt/Xilinx/Vivado/2024.2/data/system_verilog/uvm_1.2/uvm_macros.svh" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/leonardo/systemverilog-riscv-genius-game/rtl/PBL_model/packet_data.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/leonardo/systemverilog-riscv-genius-game/rtl/PBL_model/packet_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/leonardo/systemverilog-riscv-genius-game/tb/tests/PBL_model/packet_test.sv" into library work
+INFO: [VRFC 10-311] analyzing module PBL_model
