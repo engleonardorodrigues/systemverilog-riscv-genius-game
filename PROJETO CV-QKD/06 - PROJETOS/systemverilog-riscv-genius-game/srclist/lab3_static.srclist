@@ -1,0 +1,3 @@
+examples/lab3_static/packet_data.sv
+examples/lab3_static/packet_pkg.sv
+examples/lab3_static/packet_test.sv
