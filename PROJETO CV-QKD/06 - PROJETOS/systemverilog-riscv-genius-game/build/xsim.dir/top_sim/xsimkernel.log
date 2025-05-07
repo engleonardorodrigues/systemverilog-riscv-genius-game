@@ -1,7 +1,0 @@
-Running: xsim.dir/top_sim/xsimk -simmode gui -testplusarg UVM_TESTNAME=adder_basic_test -wdb top_sim.wdb -simrunnum 0 -socket 36629
-Design successfully loaded
-Design Loading Memory Usage: 180364 KB (Peak: 180420 KB)
-Design Loading CPU Usage: 1040 ms
-Simulation completed
-Simulation Memory Usage: 262100 KB (Peak: 319632 KB)
-Simulation CPU Usage: 1040 ms

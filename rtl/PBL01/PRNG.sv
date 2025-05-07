@@ -20,11 +20,14 @@ module PRNG  (
         if (!rst_n) begin
             // No reset, inicializa com a seed
            random_out <= 'b0;
+           
         end
+        
         else if (seed_load) begin
             // Se receber pulso de recarga, carrega a seed novamente
             lfsr_reg <= seed;
         end
+        
         else begin
             // Gera novo bit de feedback e desloca o registro
             feedback  = lfsr_reg[3] ^ lfsr_reg[0];

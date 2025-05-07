@@ -1,3 +1,0 @@
-rtl/PBL_model/packet_data.sv
-rtl/PBL_model/packet_pkg.sv
-tb/tests/PBL_model/packet_test.sv
